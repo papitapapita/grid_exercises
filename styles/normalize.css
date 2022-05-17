@@ -8,7 +8,22 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
-html {
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+a{
+  text-decoration: none;
+}
+
+ html {
+  font-size: 62.5%;
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
