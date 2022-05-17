@@ -36,9 +36,7 @@ body{
 }
 
 .hero__text-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    align-self: center;
 }
 
 .hero__title{
@@ -52,11 +50,11 @@ body{
 }
 
 .hero__button{
-    width: 7rem;
+    width: max-content;
     text-align: center;
-    padding: .4rem 1rem;
+    padding: .4rem 1.6rem;
     border: none;
-    border-radius: .8rem;
+    border-radius: 1.2rem;
     color: white;
     font-weight: bolder;
     background-color: orange;
